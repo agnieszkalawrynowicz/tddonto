@@ -1,0 +1,34 @@
+<?eclipse version="3.0"?>
+<plugin>
+    <extension id="TDDOnto" point="org.protege.editor.core.application.ViewComponent">
+        <label value="TDDOnto" />
+        <class value="put.aristoteles.tddontoprotege.TDDOntoRunner"/>
+        <headerColor value="@org.protege.classcolor"/>
+        <category value="Evaluation"/>
+    </extension>
+<!--    <extension id="LeoLODOperatorsToolbox" point="org.protege.editor.core.application.ViewComponent">
+        <label value="LeoLOD Operators Toolbox" />
+        <class value="pl.poznan.put.cs.semantic.leolod.gui.operator.factory.OperatorsToolbox"/>
+        <headerColor value="@org.protege.classcolor"/>
+        <category value="Validation"/>
+    </extension>
+    <extension id="LeoLODOperatorParametersEditor" point="org.protege.editor.core.application.ViewComponent">
+        <label value="LeoLOD Operator Parameters Editor" />
+        <class value="pl.poznan.put.cs.semantic.leolod.gui.operator.parameter.OperatorParametersEditor"/>
+        <headerColor value="@org.protege.classcolor"/>
+        <category value="Learning"/>
+    </extension>
+    <extension id="DataView" point="org.protege.editor.core.application.ViewComponent">
+        <label value="LeoLOD Results" />
+        <class value="pl.poznan.put.cs.semantic.leolod.gui.data.DataViewComponent"/>
+        <headerColor value="@org.protege.classcolor"/>
+        <category value="Learning"/>
+    </extension>
+    <extension id="LeoLODTab" point="org.protege.editor.core.application.WorkspaceTab">
+        <label value="LeoLOD"/>
+        <class value="org.protege.editor.core.ui.workspace.WorkspaceViewsTab"/>
+        <index value="X"/>
+        <editorKitId value="OWLEditorKit"/>
+        <defaultViewConfigFileName value="viewconfig-leolod.xml"/>
+    </extension>-->
+</plugin>
